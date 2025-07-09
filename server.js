@@ -5,7 +5,7 @@ const PORT = 3000;
 
 app.use(express.json()); // Parse JSON body
 
-// Dummy data
+// Dummy data base
 let users = [
   { id: 1, name: 'Alice' },
   { id: 2, name: 'Bob' }
